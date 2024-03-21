@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Food Explorer",
   "main": "index.js",
-  "scripts": {
+  "scripts": {   
     "start": "pm2-runtime start ecosystem.config.js --env production",
     "dev": "nodemon ./src/server.js",
     "migrate": "knex migrate:latest",
